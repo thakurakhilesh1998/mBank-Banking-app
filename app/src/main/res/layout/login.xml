@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:gravity="bottom"
+        android:textColorHint="@color/back"
+        android:background="#ffffff"
+       android:layout_marginLeft="50dp"
+        android:inputType="textEmailAddress" />
+</android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000000"
+       >
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="250dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="30dp"
+        android:hint="Password"
+        android:textColorHint="@color/back"
+        android:gravity="bottom"
+        android:drawableLeft="@drawable/ic_https_black_24dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="50dp"
+        android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="90dp"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:id="@+id/click"
+        android:background="@drawable/round"/>
+
+
+</LinearLayout>

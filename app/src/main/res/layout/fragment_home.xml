@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wel"
+            android:gravity="center"
+            android:textColor="@color/back"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/account"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/account2" />
+
+            <Button
+                android:id="@+id/addmoney"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/addmoney" />
+
+            <Button
+                android:id="@+id/recent"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/mini2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Fund"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/addf" />
+
+            <Button
+                android:id="@+id/Recharge"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/recharge" />
+
+            <Button
+                android:id="@+id/FD"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/deposit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/UPI"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/upi" />
+
+            <Button
+                android:id="@+id/Debit"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/iconcard" />
+
+            <Button
+                android:id="@+id/ATM"
+                android:layout_width="100dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/aloc" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

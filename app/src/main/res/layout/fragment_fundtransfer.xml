@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fundtransfer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="25dp"
+            android:text="FUND TRANSFER"
+            android:textStyle="bold"
+            android:textColor="@color/back"
+            android:textSize="35dp" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:hint="Accont Name"
+                android:gravity="bottom"
+                android:textColorHint="@color/back"
+                android:background="#ffffff"
+                android:digits="qwertyuiopasdfghjkl.mnbvcxz1234576890-@"
+                android:maxLines="2"
+                android:inputType="text"
+                android:id="@+id/accname"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:id="@+id/acc24"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:digits="1234567890"
+                android:maxLines="1"
+                android:background="#ffffff"
+                android:maxLength="5"
+                android:textColorHint="@color/back"
+                android:gravity="bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:hint="amount"
+                android:inputType="number"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/click"
+            android:text="Transfer"
+            android:background="@drawable/round"
+            android:textColor="#ffffff"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="120dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "961118726278",
+    "firebase_url": "https://mbank-3f037.firebaseio.com",
+    "project_id": "mbank-3f037",
+    "storage_bucket": "mbank-3f037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961118726278:android:c2440c98053f9a0a",
+        "android_client_info": {
+          "package_name": "com.akhileshthakur.mbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961118726278-i3559kl4cpa9q69eh86fcd2ea0fr80ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akhileshthakur.mbank",
+            "certificate_hash": "7070ccabc52fac79ed6d25e28225cd67a9690380"
+          }
+        },
+        {
+          "client_id": "961118726278-ncilqn8u84vlqh30aute81g1hidrustj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWRwnKZYIB9hEWLsyip3FrirXJ7gqkJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961118726278-ncilqn8u84vlqh30aute81g1hidrustj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
